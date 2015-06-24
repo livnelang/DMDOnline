@@ -1,0 +1,322 @@
+#wrapper {
+    position:relative;
+    /*border:0px solid;*/
+    width : 960px;
+    margin : 0px auto;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    background-image: url('../img/back.png');
+    background-repeat: no-repeat;
+}
+
+#p_wrapper {
+     position:relative;
+    /*border:0px solid;*/
+    max-width : 1000px;
+    min-height: 510px;
+    margin : auto;
+    margin-top:30px;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+
+/**
+*  Header CSS
+*/
+#main_header {
+    position:relative;
+    height:44%;
+    width:inherit;
+}
+
+#top-nav {
+    position: relative;
+    height: 60px;
+    background-color: white;
+    background-image: url('../img/ftrade_logo.png');
+    background-repeat: no-repeat;
+    background-position: left 230px center;
+}
+
+#top_ul {
+    list-style: none;
+    position: relative;
+    top: 7px;
+    padding-left: 50%;
+}
+
+#top_ul li {
+    float:left;
+    padding-right: 5px;
+
+}
+
+#top_ul li a {
+    text-decoration: underline;
+    color: #1b160d;
+    opacity: 0.7;
+}
+
+#back_head {
+    position: relative;
+    height:297px;
+    width:inherit;
+    background-image: url('../img/header_back.png');
+}
+
+#first_article {
+    position: absolute;
+    top:15px; 
+    left:200px;
+    width:304px;
+    height:125px;
+}
+
+
+
+#second_article {
+    position: absolute;
+    top:140px; 
+    left:200px;
+    width:304px;
+    height:125px;
+}
+
+.art_title {
+    font-family: Tahoma;
+    color:#00ff86;
+    font-size: 18px;
+}
+
+#info_form {
+    position: absolute;
+    top:219px;
+    height:70px;
+    width:inherit;
+}
+
+#few_steps {
+    display:block;
+    position: relative;
+    padding-left: 40%;
+    padding-top: 4px;
+}
+
+#few_steps p {
+    color:#f8f9f9;
+    opacity: 0.7;
+}
+
+#my_form {
+    position:absolute;
+    top:20px;
+    left:150px;
+}
+
+.input-group[class*="col-"] {
+    float:left;
+    margin-right: 10px;
+}
+
+#my_form button {
+    background: none;
+    border:0px;
+}
+.my_button {
+
+    border:0px;
+    width:109px;
+    height:28px;
+    background-image: url('../img/join_ftrade.png');
+}
+
+#terms {
+    height:10px;
+}
+
+#terms input, p {
+    float:left;
+    display: inline;
+    font-size: 10px;
+    color: white;
+}
+
+#terms > p {
+    padding: 3px;
+}
+
+/**
+*  Main CSS
+*/
+main {
+    position: relative;
+    height:100%;
+    overflow:auto ;
+}
+
+#step_first_part {
+    height:210px;
+    clear:both;
+}
+
+#trading_steps {
+    position: absolute;
+    top:55px; 
+    left:100px;
+    width:320px;
+    height:185px;
+}
+
+.step {
+    display:block;
+    clear:both;
+}
+
+.step img,p {
+    float: left;
+}
+
+.step_phrase {
+    float:left;
+    font-family: Tahoma;
+    color:#3a3939;
+    font-size: 16px;
+    margin-left: 4px;
+}
+
+.blue_title {
+    font-family: Tahoma;
+    color:#3498db;
+    font-size: 20px;
+}
+
+#side_graph {
+    position: absolute;
+    top:50px; 
+    left:450px;
+    width:330px;
+    height:177px;
+    background-image: url('../img/side_graph.png');
+}
+
+#trading_secondary {
+    position:relative;
+    height:170px;
+}
+
+#screen{
+    float:left;
+    position: absolute;
+    left:100px;
+    width:231px;
+    height:166px;
+    background-image: url('../img/screen.png');
+}
+
+#trade_marks {
+    position: absolute;
+    left:450px;
+    width:300px;
+    height:70px;
+}
+
+#trade_marks .n_p {
+    font-family: Tahoma;
+    color:black;
+    font-size: 10px;
+}
+
+.bolded{
+    font-family: Tahoma;
+    font-style: oblique;    
+    color:#3a3939;
+    font-size: 14px;
+}
+
+#bottom {
+    position: relative;
+    height:100px;
+}
+
+#bottom_nav {
+    display: block;
+    height:10px;
+    margin-left: 20%;
+}
+
+.bottom_ul {
+    position: relative;
+    top: 7px;
+}
+
+#bottom_ul li {
+    float:left;
+    padding-right: 5px;
+
+}
+
+#bottom_ul li a {
+    color: #1b160d;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+
+.input-group input,button {
+    float:left;
+
+}
+
+#last_text {
+
+    display: block;
+    margin-left:10%;
+    width: 90%;
+}
+
+#last_text p {
+    color:#2e2e2e;
+    text-align: center;
+}
+
+
+
+hr.style-six {
+    height: 2px;
+    display: block;
+    width:80%;
+    border-width: 1px 0px;
+    border-style: solid none;
+    border-color: rgba(0, 0, 0, 0.1) -moz-use-text-color rgba(255, 255, 255, 0.3);
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    height: 0px;
+}
+
+/**
+*  join_ftrade.php CSS
+*/
+
+.details {
+    position: relative;
+    display: block;
+    margin:0px auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.my_details {
+    list-style-type: none;
+}
+.my_details li {
+    display:block;
+    clear:both;
+    margin:15px;
+    color:#5C3D00;
+    font-size: 15px;
+}
